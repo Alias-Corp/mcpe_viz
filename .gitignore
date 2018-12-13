@@ -5,6 +5,7 @@ wbuild64/
 Backup/
 Research/
 openlayers
+gui/.qmake.stash
 
 jslint.sh
 prepush.pl
