@@ -1285,10 +1285,12 @@ namespace mcpe_viz {
         std::string item;
         char delim = '\n';
         while ( std::getline(ss, item, delim) ) {
-          if ( textCount > 0 ) {
-            // hacky: remove first 3 characters (minecraft control characters) of all lines but the first
-            item.erase(0,3);
-          }
+         // remove first 3 characters (minecraft control characters)
+         if (item.c_str()[0] == -0x3E)
+         {
+           item.erase(0, 3);
+         }
+
           //fprintf(stderr,"sign text part [%s]\n", item.c_str());
           text.push_back( item ); 
           textCount++;
