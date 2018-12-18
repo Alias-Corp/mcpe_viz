@@ -1,4 +1,4 @@
-CMAKEFLAGS=
+CMAKEFLAGS=-DPNG_PNG_INCLUDE_DIR=/usr/local/include/libpng16
 
 all: cmakebuild
 
