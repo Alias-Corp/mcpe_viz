@@ -475,9 +475,12 @@
     </block>
     <block id="0x8D" name="Carrot" uname="minecraft:carrots" color="0xe8a03a" solid="0" opaque="0" spawnable="0" />  <!-- *S *I -->
     <block id="0x8E" name="Potato" uname="minecraft:potatoes" color="0xb4af1c" solid="0" opaque="0" spawnable="0" /> <!-- *S *I -->
-    <block id="0x8F" name="Button, Wooden" uname="minecraft:oak_button;minecraft:wooden_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.13 -->
-	<block id="0x18C" name="Button, Birch" uname="minecraft:birch_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
-	<block id="0x18F" name="Button, Spruce" uname="minecraft:spruce_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x8F" name="Button, Oak" uname="minecraft:oak_button;minecraft:wooden_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" /> <!-- *S 0.13 -->
+    <block id="0x18B" name="Button, Acacia" uname="minecraft:acacia_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
+ 	  <block id="0x18C" name="Button, Birch" uname="minecraft:birch_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x18D" name="Button, Dark Oak" uname="minecraft:dark_oak_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x18E" name="Button, Jungle" uname="minecraft:jungle_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
+	  <block id="0x18F" name="Button, Spruce" uname="minecraft:spruce_button" color="0xcfbe7a" solid="0" opaque="0" spawnable="0" />
     <block id="0x90" name="Mob Head" uname="minecraft:skull" color="0xe030e0" solid="0"> <!-- *I *S *E 0.13 todo - parse type and direction etc -->
       <blockvariant blockdata="0x01" name="Mob Head, On the floor" />
       <blockvariant blockdata="0x02" name="Mob Head, On a wall, facing North" />
