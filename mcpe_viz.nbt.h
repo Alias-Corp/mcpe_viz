@@ -11,6 +11,7 @@
 #define __MCPE_VIZ_NBT_H__
 
 // hide innocuous warnings here
+#pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wshadow"
 #include "nbt_tags.h"
 #pragma GCC diagnostic pop

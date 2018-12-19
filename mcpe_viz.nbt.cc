@@ -2338,6 +2338,7 @@ namespace mcpe_viz {
     void clear() {
     }
     int32_t set ( nbt::tag_compound &tc ) {
+      UNUSED(tc);
       return 0;
     }
     std::string toGeoJSON() {
@@ -2365,7 +2366,7 @@ namespace mcpe_viz {
       std::vector<std::string> list;
       char tmpstring[1025];
 
-      sprintf(tmpstring, "\"id\":%ld", id);
+      sprintf(tmpstring, "\"id\":%lld", id);
       list.push_back(std::string(tmpstring));
 
       if ( list.size() > 0 ) {
@@ -2645,6 +2646,7 @@ namespace mcpe_viz {
           nbt::tag_compound td = tc["data"].as<nbt::tag_compound>();
 
           int32_t vTick = td["Tick"].as<nbt::tag_int>().get();
+          UNUSED(vTick);
           
           if ( td.has_key("Villages", nbt::tag_type::List) ) {
             // all is good

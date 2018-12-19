@@ -37,6 +37,10 @@ namespace mcpe_viz {
 #define be32toh local_be32toh
 #endif
 
+#ifndef UNUSED
+#define UNUSED(x) (void)(x)
+#endif
+
   int32_t local_mkdir(const std::string& path);
   
   // these hacks work around "const char*" problems

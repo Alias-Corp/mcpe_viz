@@ -251,6 +251,7 @@ namespace mcpe_viz {
 #if defined(__APPLE__) || defined(__FreeBSD__)
     //fcopyfile works on FreeBSD and OS X 10.5+
     int result = fcopyfile(input, output, 0, COPYFILE_ALL);
+    UNUSED(result);
     // todobig - would need to investigate what fcopyfile returns
 #else
     //sendfile will work with non-socket output (i.e. regular file) on Linux 2.6.33+

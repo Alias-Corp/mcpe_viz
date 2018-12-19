@@ -218,6 +218,7 @@
 #include "leveldb/cache.h"
 #include "leveldb/decompress_allocator.h"
 // hide innocuous warnings here
+#pragma GCC diagnostic push
 #pragma GCC diagnostic ignored "-Wshadow"
 #include "leveldb/zlib_compressor.h"
 #pragma GCC diagnostic pop
