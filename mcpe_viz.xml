@@ -996,6 +996,37 @@
     <block id="0x1b7" name="Red Nether Brick Stairs" uname="minecraft:red_nether_brick_stairs" color="0x230203" />
     <block id="0x1b8" name="Smooth Quartz Stairs" uname="minecraft:smooth_quartz_stairs" color="0xfafafa" />
     
+    <block id="0x1b4" name="Spruce Standing Sign" uname="minecraft:spruce_standing_sign" color="0x8d804a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1b5" name="Spruce Wall Sign" uname="minecraft:spruce_wall_sign" color="0x8d804b" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1b9" name="Birch Standing Sign" uname="minecraft:birch_standing_sign" color="0x8d804a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1ba" name="Birch Wall Sign" uname="minecraft:birch_wall_sign" color="0x8d804b" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1bb" name="Jungle Standing Sign" uname="minecraft:jungle_standing_sign" color="0x8d804a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1bc" name="Jungle Wall Sign" uname="minecraft:jungle_wall_sign" color="0x8d804b" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1bd" name="Acacia Standing Sign" uname="minecraft:acacia_standing_sign" color="0x8d804a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1be" name="Acacia Wall Sign" uname="minecraft:acacia_wall_sign" color="0x8d804b" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1bf" name="Dark Oak Standing Sign" uname="minecraft:darkoak_standing_sign" color="0x8d804a" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1c0" name="Dark Oak Wall Sign" uname="minecraft:darkoak_wall_sign" color="0x8d804b" solid="0" opaque="0" spawnable="0" />
+    <block id="0x1c1" name="Lectern" uname="minecraft:lectern" color="0x895d27" />
+    <block id="0x1c2" name="Grindstone" uname="minecraft:grindstone" color="0x895d27" />
+    <block id="0x1c3" name="Blast Furnace" uname="minecraft:blast_furnace" color="0x895d27" />
+    <block id="0x1c4" name="Stonecutter Block" uname="minecraft:stonecutter_block" color="0x895d27" />
+    <block id="0x1c5" name="Smoker" uname="minecraft:smoker" color="0x895d27" />
+    <block id="0x1c6" name="Smoker (Lit)" uname="minecraft:lit_smoker" color="0x895d27" />
+    <block id="0x1c7" name="Cartography Table" uname="minecraft:cartography_table" color="0x895d27" />
+    <block id="0x1c8" name="Fletching Table" uname="minecraft:fletching_table" color="0x895d27" />
+    <block id="0x1c9" name="Smithing Table" uname="minecraft:smithing_table" color="0x895d27" />
+    <block id="0x1ca" name="Barrel" uname="minecraft:barrel" color="0x895d27" />
+    <block id="0x1cb" name="Loom" uname="minecraft:loom" color="0x895d27" />
+    <block id="0x1cd" name="Bell" uname="minecraft:bell" color="0x895d27" />
+    <block id="0x1ce" name="Sweet Berry Bush" uname="minecraft:sweet_berry_bush" color="0xc00000" />
+    <block id="0x1cf" name="Lantern" uname="minecraft:lantern" color="0xfdfd02" />
+    <block id="0x1d0" name="Campfire" uname="minecraft:campfire" color="0xfd1b30" />
+    <block id="0x1d1" name="Cauldron (Lava)" uname="minecraft:lava_cauldron" color="0xc00000" />
+    <block id="0x1d2" name="Jigsaw" uname="minecraft:jigsaw" color="0x895d27" />
+    <block id="0x1d3" name="Wood" uname="minecraft:wood" color="0x696a2d" />
+    <block id="0x1d4" name="Composter" uname="minecraft:composter" color="0x895d27" />
+    <block id="0x1d5" name="Blast Furnace (Lit)" uname="minecraft:lit_blast_furnace" color="0x895d27" />
+
 
   </blocklist>
 
