@@ -903,6 +903,19 @@ function correctGeoJSONName(feature) {
             }
         }
     }
+    else if (name == 'Pillager') {
+        // check the pillager's variant to see if it's a captain
+        // Long-term, it would be better to have the "IsIllagerCaptain" value in the JSON, but we don't have that right now
+        var props = feature.getProperties();
+        var variant = props.Variant;
+
+        if (typeof variant !== 'string') variant = "";
+        variant = variant.trim();
+
+        if (variant == "1 (0x1)") {
+            name = name + " Captain";
+        }
+    }
     else if (name == 'The Player') {
         var props = feature.getProperties();
         if ( props.playerType === 'Local Player' ) {
