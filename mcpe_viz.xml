@@ -1601,6 +1601,7 @@
     <entity id="0x48" uname="minecraft:fireworks_rocket" name="Firework Rocket" />
     <entity id="0x49" uname="minecraft:thrown_trident" name="Trident" />
     <entity id="0x4A" uname="minecraft:turtle" name="Turtle" etype="P" />
+    <entity id="0x4B" uname="minecraft:cat" name="Cat" etype="P" />
     <entity id="0x4C" uname="minecraft:shulker_bullet" name="Shulker Bullet" />
     <entity id="0x4D" uname="minecraft:fishing_hook" name="Fishing Rod hook" />
     <entity id="0x4e" uname="minecraft:chalkboard" name="Chalkboard" /> <!-- EDU -->
@@ -1633,7 +1634,6 @@
     <entity id="0x6E" uname="minecraft:drowned" name="Drowned" etype="H" />
     <entity id="0x6F" uname="minecraft:tropicalfish" name="Tropical Fish" etype="P" />
     <entity id="0x70" uname="minecraft:cod" name="Cod" etype="P" />
-    <entity id="0x7A" uname="minecraft:cat" name="Cat" etype="P" />
     <entity id="0x7B" uname="minecraft:panda" name="Panda" etype="P" />
   </entitylist>
 
