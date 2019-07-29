@@ -848,6 +848,8 @@ function openlayersToMcpe(tx, ty, adjustToCenterFlag) {
     return [ px, py ];
 }
 
+var villagerVariants = [ "None", "Farmer", "Fisherman", "Shepherd", "Fletcher", "Librarian", "Cartographer", "Cleric", "Armorer", "Weaponsmith", "Toolsmith", "Butcher", "Leatherworker", "Mason" ];
+
 function correctGeoJSONName(feature) {
     var name = feature.get('Name');
     if (name == 'MobSpawner') {
@@ -882,6 +884,23 @@ function correctGeoJSONName(feature) {
             name = 'Sign: ' + a.join(' / ');
         } else {
             name = 'Sign';
+        }
+    }
+    else if (name == 'Villager') {
+        // rename villager to include its variant
+        var props = feature.getProperties();
+        var variant = props.Variant;
+
+        if (typeof variant !== 'string') variant = "";
+        variant = variant.trim();
+
+        if (variant != "") {
+            var parts = variant.split();
+            var index = parseInt(parts[0]);
+
+            if (!isNaN(index)) {
+               name = name + ' (' + villagerVariants[index] + ')';
+            }
         }
     }
     else if (name == 'The Player') {
