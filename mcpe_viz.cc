@@ -258,7 +258,7 @@ namespace mcpe_viz {
   int32_t palRedBlackGreen[256];
 
   // info lists (from XML)
-  BlockInfo blockInfoList[512];
+  BlockInfo blockInfoList[1024];
   ItemInfoList itemInfoList;
   EntityInfoList entityInfoList;
   BiomeInfoList biomeInfoList;
@@ -5031,7 +5031,7 @@ namespace mcpe_viz {
                 );
 
         fprintf(fp,"var blockColorLUT = {\n");
-        for (int32_t i=0; i < 512; i++) {
+        for (int32_t i=0; i < 1024; i++) {
           if ( blockInfoList[i].hasVariants() ) {
             // we need to get blockdata
             for (const auto& itbv : blockInfoList[i].variantList) {

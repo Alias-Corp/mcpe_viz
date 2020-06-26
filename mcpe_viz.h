@@ -174,7 +174,7 @@ namespace mcpe_viz {
     }
   };
   
-  extern BlockInfo blockInfoList[512];
+  extern BlockInfo blockInfoList[1024];
 
   //BlockInfo* getBlockInfo(int32_t id, int32_t blockData);
   std::string getBlockName(int32_t id, int32_t blockdata);

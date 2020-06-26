@@ -24,6 +24,7 @@ namespace mcpe_viz {
       if ( sscanf((char*)prop,"0x%x",&ret) == 1 ) {
         xmlFree(prop);
         valid=true;
+        //fprintf(stderr, "%d\n", ret);
         return ret;
       }
       // try decimal
@@ -36,7 +37,7 @@ namespace mcpe_viz {
     }
     // todo - verbose only?
     // todo - show more context
-    // fprintf(stderr,"WARNING: Failed xmlGetInt k=[%s]\n", (char*)p);
+    //fprintf(stderr,"WARNING: Failed xmlGetInt k=[%s]\n", (char*)p);
     return 0;
   }
 
