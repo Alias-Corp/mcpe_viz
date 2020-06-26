@@ -925,7 +925,7 @@
     <block id="0x1a0" name="Barrier" uname="minecraft:barrier" color="0xf80a31" />
 
     <!-- added by oshouki // used same colors as their respective source blocks, or otherwise made up. -->
-    <block id="0x1a1" name="Different Stone-type Slabs" uname="minecraft:stone_slab3" color="0xded99e">
+    <block id="0x1a1" name="Different Stone-type Slabs" uname="minecraft:stone_slab3" color="0xc7c38e">
       <blockvariant blockdata="0x0" name="Slab, End Stone Brick" />
       <blockvariant blockdata="0x1" name="Slab, Smooth Red Sandstone" />
       <blockvariant blockdata="0x2" name="Slab, Polished Andesite" />
@@ -962,7 +962,7 @@
       <blockvariant blockdata="0xb" name="Slab, Upper Cut Sandstone" />
       <blockvariant blockdata="0xc" name="Slab, Upper Cut Red Sandstone" />
     </block>
-    <block id="0x1a6" name="Different Double Stone-type Slabs" uname="minecraft:double_stone_slab3" color="0xded99e">
+    <block id="0x1a6" name="Different Double Stone-type Slabs" uname="minecraft:double_stone_slab3" color="0xb1ad7e">
       <blockvariant blockdata="0x0" name="Double Slab, End Stone Brick" />
       <blockvariant blockdata="0x1" name="Double Slab, Smooth Red Sandstone" />
       <blockvariant blockdata="0x2" name="Double Slab, Polished Andesite" />
@@ -988,9 +988,9 @@
     <block id="0x1ae" name="Mossy Stone Brick Stairs" uname="minecraft:mossy_stone_brick_stairs" color="0x8a9e90" />
     <block id="0x1af" name="Smooth Red Sandstone Stairs" uname="minecraft:smooth_red_sandstone_stairs" color="0xcdbe86" />
     <block id="0x1b0" name="Smooth Sandstone Stairs" uname="minecraft:smooth_sandstone_stairs" color="0xfbf8b4" />
-    <block id="0x1b1" name="End Stone Brick Stairs" uname="minecraft:end_brick_stairs" color="0xded99e" />
+    <block id="0x1b1" name="End Stone Brick Stairs" uname="minecraft:end_brick_stairs" color="0xb1ad7e" />
     <block id="0x1b2" name="Mossy Cobblestone Stairs" uname="minecraft:mossy_cobblestone_stairs" color="0x8a9e90" />
-    <block id="435" name="Stone Stairs" uname="minecraft:normal_stone_stairs" color="0xa0a0a0" />
+    <block id="0x1b3" name="Stone Stairs" uname="minecraft:normal_stone_stairs" color="0x979A9A" />
     <block id="0x1b6" name="Smooth Stone" uname="minecraft:smooth_stone" color="0xd4d4d4" />
     <block id="0x1b7" name="Red Nether Brick Stairs" uname="minecraft:red_nether_brick_stairs" color="0x230203" />
     <block id="0x1b8" name="Smooth Quartz Stairs" uname="minecraft:smooth_quartz_stairs" color="0xfafafa" />
@@ -1029,15 +1029,15 @@
     <!-- AznManDown addition -->
     <block id="0x1d9" name="Bee Nest" uname="minecraft:bee_nest" color="0xffb000" />
     <block id="0x220" name="Crying Obsidian" uname="minecraft:crying_obsidian" color="0x633974" />
-    <block id="0x20F" name="Respawn Anchor" uname="minecraft:respawn_anchor" color="0x633974" />
+    <block id="0x20F" name="Respawn Anchor" uname="minecraft:respawn_anchor" color="0x724c81" />
     <block id="0x21F" name="Nether Gold Ore" uname="minecraft:nether_gold_ore" color="0x1c2833" />
     <block id="0x1EB" name="Soul Soil" uname="minecraft:soul_soil" color="0x421010" />
     <block id="0x1EC" name="Soul Fire" uname="minecraft:soul_fire" color="0xccccff" />
     <block id="0x210" name="Blackstone" uname="minecraft:blackstone" color="0x210808" />
     <block id="0x222" name="Polished Blackstone" uname="minecraft:polished_blackstone" color="0x210808" />
     <block id="0x223" name="Polished Blackstone Stairs" uname="minecraft:polished_blackstone_stairs" color="0x372020" />
-    <block id="0x224" name="Polished Blackstone Slab" uname="minecraft:polished_blackstone_slab" color="0x210808" />
-    <block id="0x211" name="Polished Blackstone Bricks" uname="minecraft:polished_blackstone_bricks" color="0x210808" />
+    <block id="0x224" name="Polished Blackstone Slab" uname="minecraft:polished_blackstone_slab" color="0x1d0707" />
+    <block id="0x211" name="Polished Blackstone Bricks" uname="minecraft:polished_blackstone_bricks" color="0x1a0606" />
     <block id="0x1E5" name="Shroomlight" uname="minecraft:shroomlight" color="0xffe34c" />
     <block id="0x20E" name="Ancient Debris" uname="minecraft:ancient_debris" color="0x595959" />
     <block id="0x1e9" name="Basalt" uname="minecraft:basalt" color="0x191919" />
